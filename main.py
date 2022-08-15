@@ -67,7 +67,7 @@ def overwrite():
     text = text.replace(search_string, replacement)
     x = open("Password Manager GUI APP Tkinter/data.csv", "w")  #
     x.writelines(text)
-    x.close
+    x.close()
 
 
 # generate password
